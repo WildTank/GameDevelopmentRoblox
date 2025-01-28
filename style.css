@@ -11,6 +11,10 @@
     align-items: center;
 }
 
+.is-flex.flex-align-baseline {
+    align-items: baseline;
+}
+
 /* universals */
 * {
     margin: 0;
@@ -42,8 +46,8 @@ header > .top-bar {
     gap: 1em;
 }
 
-.name-label > * {
-    line-height: 100%;
+.top-bar-label {
+    gap: 0.5em;
 }
 
 .top-bar-icon {
@@ -54,4 +58,8 @@ header > .top-bar {
 .top-bar-icon > * {
     height: 100%;
     width: 100%;
+}
+
+#name-label {
+    font-size: 2em;
 }
